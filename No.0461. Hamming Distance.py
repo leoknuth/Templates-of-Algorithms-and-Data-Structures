@@ -7,3 +7,27 @@ class Solution(object):
                 ans = ans +1
             w = w // 2
         return ans
+
+import sys
+def readlines():
+    for line in sys.stdin:
+        yield line.strip('\n')
+
+def main():
+    lines = readlines()
+    while True:
+        try:
+            line = lines.next()
+            x = int(line)
+            line = lines.next()
+            y = int(line)
+            
+            ret = Solution().hammingDistance(x, y)
+
+            out = str(ret)
+            print out
+        except StopIteration:
+            break
+
+if __name__ == '__main__':
+    main()
