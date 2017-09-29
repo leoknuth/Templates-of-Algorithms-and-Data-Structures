@@ -14,4 +14,18 @@ How to set the background of my codes in this readme file?
 
 
 
+.. code-block:: python
+
+    MBO = pal.get_MBO("Cl", "Cs", "WATER",
+                      ion="Pb",
+                      route_lvl=0,
+                      on_queue=False,
+                      criteria=[["O", "H"]],
+                      queue="batch", nprocs=2, xhost=None)
+
+Similarly, for the UMBO you c
+
+
+
+
 
