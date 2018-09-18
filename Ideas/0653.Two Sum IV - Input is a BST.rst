@@ -23,8 +23,8 @@ Time Complexity: O(N)
 
 这道题目没什么可说的。在一个有序序列里寻找两个数使其和等于目标值。设两个index分别从头和尾向中间扫描即可。
 
-
 .. code-block:: python
+
     class Solution(object):
         def twoSum(self, numbers, target):
             """
