@@ -10,7 +10,7 @@ If there are n buckets and a pig drinking poison will die within m minutes, how 
 
 #Solution:
 
-Time Complexity: O(N)
+Time Complexity: O(1)
 
 这道题目对我来说挺难的。这道数学题，挺考验分析能力和智商的。
 
