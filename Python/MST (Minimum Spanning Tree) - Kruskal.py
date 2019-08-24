@@ -12,7 +12,7 @@ class UnionFind(object):
             self.f[x] = y
         
 class Solution(object):
-    def minCostToSupplyWater(self, n, edges):
+    def MinimumSpanningTree(self, n, edges):
         """
         :type n: int
         :type edges: List[List[int]]
@@ -34,6 +34,6 @@ class Solution(object):
 #test
 n = 4
 edges = [[0,1,1],[0,2,2],[0,3,2],[1,2,1],[2,3,1]]
-ans = Solution().minCostToSupplyWater(n, edges)
+ans = Solution().MinimumSpanningTree(n, edges)
 print ans        
         
